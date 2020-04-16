@@ -117,26 +117,26 @@ body {
 }
 
 .wrapper {
-    /*creating flex-container and space betveen the items in it*/
+    /*creating flex-container*/
     display: flex;
-    justify-content: space-between;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .div-1,
 .div-2,
 .div-3 {
-    color: #fff;
+    color: aliceblue;
     display: flex;
     justify-content: center;
     /*alignment along the main axis*/
-    align-items: center;
+    align-items: stretch;
     /*alignment along the cross axis*/
     line-height: 1.5em;
-    font-size: 1.6em;
-    background-color: #f16059;
-    height: 300px;
+    font-size: 1.3em;
+    background-color: royalblue;
+    height: 280px;
     width: 30%;
+    padding: 1.5em;
 }
 
 
